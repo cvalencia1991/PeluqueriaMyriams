@@ -1,6 +1,10 @@
 {
   "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
+    "title":"Miriam's Hairdressing",
+    "description":"Hairdressing and Cosmetology, one of the best salons in Cali, Colombia, invites you to enjoy a unique beauty and personal care experience. We use the finest tools and products in the region, ensuring exceptional results in each of our services. Our team of professionals is ready to offer you the best in style and personalized attention. Come visit us and refresh your look with us!",
+    "services": {
+      "title": "Our Services",
+      "description": "We offer a wide range of services to meet your needs. From haircuts to hair treatments, we have everything you need to look and feel your best. Our team of professionals is here to help you achieve the look you desire. Come visit us today and let us help you look and feel your best!"
+    }
   }
 }

@@ -1,7 +1,43 @@
 {
+  "Navigation": ["Sobre Nosotros", "Servicios", "Contáctanos"],
+  "LocaleSwitcher": {
+    "label" : "Change Language",
+    "locale": "{locale, select,  es { 🇪🇸Spanish} en {🇺🇸English} other {Unknown}}"
+  },
   "HomePage": {
-    "title": "Peluqueria Miriam's",
-    "description": "Peluquería y Cosmetología, una de las mejores peluquerías de Cali, Colombia,\n te invita\n a disfrutar de una experiencia única en belleza y cuidado personal. Contamos con los mejores utensilios y productos de la región, garantizando resultados excepcionales en cada uno de nuestros servicios. Nuestro equipo de profesionales está preparado para ofrecerte lo mejor en estilo y atención personalizada. ¡Ven y visítanos, y renueva tu imagen con nosotros! "
+    "title": "✃Myriam's Peluqueria",
+    "description": "Peluquería y Cosmetología, una de las mejores peluquerías de Cali, Colombia,\n te invita\n a disfrutar de una experiencia única en belleza y cuidado personal. Contamos con los mejores utensilios y productos de la región, garantizando resultados excepcionales en cada uno de nuestros servicios. Nuestro equipo de profesionales está preparado para ofrecerte lo mejor en estilo y atención personalizada. ¡Ven y visítanos, y renueva tu imagen con nosotros! ",
+    "About":{
+      "title": "Sobre Nosotros",
+      "description": "Somos una peluquería y cosmetología con más de 30 años de experiencia en el mercado. Nuestro equipo de profesionales está altamente capacitado para ofrecerte los mejores servicios en belleza y cuidado personal. Contamos con un ambiente cálido y acogedor, donde podrás relajarte y disfrutar de una experiencia única en estilismo"
+    }
+  },
+  "AboutPage": {
+    "title": "Sobre Nosotros",
+    "description": "Somos una peluquería y cosmetología con más de 30 años de experiencia en el mercado. Nuestro equipo de profesionales está altamente capacitado para ofrecerte los mejores servicios en belleza y cuidado personal. Contamos con un ambiente cálido y acogedor, donde podrás relajarte y disfrutar de una experiencia única en estilismo"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "schedule": "Horario de Atención",
+    "address": ""
+  },
+  "services": {
+    "Full Service": {
+      "title": "Full Servicio",
+      "description": "Nuestro servicio full incluye un corte de cabello, coloración, peinado, maquillaje, manicura y pedicura, depilación y tratamientos capilares. Este servicio es perfecto para aquellas personas que desean un cambio completo de imagen y quieren lucir y sentirse lo mejor posible."
+    },
+    "Hairstyle": {
+      "title": "Peinados",
+      "description": "Nuestros estilistas profesionales están listos para ofrecerte los mejores peinados para cualquier ocasión. Ya sea que necesites un peinado para una boda, una fiesta o simplemente para el día a día, estamos aquí para ayudarte a lucir y sentirte lo mejor posible. Ademas, tenemos Coloracion, trenzas, extensiones, keratina, alisados, rizos, cortes de cabello, tratamientos capilares, entre otros."
+    },
+    "facial": {
+      "title": "Facial",
+      "description": "Nuestros tratamientos faciales están diseñados para ayudarte a lucir y sentirte lo mejor posible. Ya sea que necesites una limpieza facial, un tratamiento anti-envejecimiento o simplemente un masaje facial relajante, estamos aquí para ayudarte a lograr la piel que siempre has deseado."
+    },
+    "makeup": {
+      "title": "Maquillaje",
+      "description": "Nuestros maquilladores profesionales están listos para ayudarte a lucir y sentirte lo mejor posible. Ya sea que necesites un maquillaje para una boda, una fiesta o simplemente para el día a día, estamos aquí para ayudarte a resaltar tu belleza natural."
+    }
   }
 }
 

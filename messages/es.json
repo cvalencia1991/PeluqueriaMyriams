@@ -2,7 +2,7 @@
   "Navigation": ["Sobre Nosotros", "Servicios", "Contáctanos"],
   "LocaleSwitcher": {
     "label" : "Change Language",
-    "locale": "{locale, select,  es { 🇪🇸Spanish} en {🇺🇸English} other {Unknown}}"
+    "locale": "{locale, select,  es { 🇪🇸 Spanish} en {🇺🇸English} other {Unknown}}"
   },
   "HomePage": {
     "title": "✃Myriam's Peluqueria",
@@ -10,6 +10,24 @@
     "About":{
       "title": "Sobre Nosotros",
       "description": "Somos una peluquería y cosmetología con más de 30 años de experiencia en el mercado. Nuestro equipo de profesionales está altamente capacitado para ofrecerte los mejores servicios en belleza y cuidado personal. Contamos con un ambiente cálido y acogedor, donde podrás relajarte y disfrutar de una experiencia única en estilismo"
+    },
+    "services": {
+      "Full Service": {
+        "title": "Full Servicio",
+        "description": "Nuestro servicio full incluye un corte de cabello, coloración, peinado, maquillaje, manicura y pedicura, depilación y tratamientos capilares. Este servicio es perfecto para aquellas personas que desean un cambio completo de imagen y quieren lucir y sentirse lo mejor posible."
+      },
+      "Hairstyle": {
+        "title": "Peinados",
+        "description": "Nuestros estilistas profesionales están listos para ofrecerte los mejores peinados para cualquier ocasión. Ya sea que necesites un peinado para una boda, una fiesta o simplemente para el día a día, estamos aquí para ayudarte a lucir y sentirte lo mejor posible."
+      },
+      "Facial": {
+        "title": "Facial",
+        "description": "Nuestros tratamientos faciales están diseñados para ayudarte a lucir y sentirte lo mejor posible. Ya sea que necesites una limpieza facial, un tratamiento anti-envejecimiento o simplemente un masaje facial relajante, estamos aquí para ayudarte a lograr la piel que siempre has deseado."
+      },
+      "Makeup": {
+        "title": "Maquillaje",
+        "description": "Nuestros maquilladores profesionales están listos para ayudarte a lucir y sentirte lo mejor posible. Ya sea que necesites un maquillaje para una boda, una fiesta o simplemente para el día a día, estamos aquí para ayudarte a resaltar tu belleza natural."
+      }
     }
   },
   "AboutPage": {
@@ -20,24 +38,6 @@
     "title": "Contáctanos",
     "schedule": "Horario de Atención",
     "address": ""
-  },
-  "services": {
-    "Full Service": {
-      "title": "Full Servicio",
-      "description": "Nuestro servicio full incluye un corte de cabello, coloración, peinado, maquillaje, manicura y pedicura, depilación y tratamientos capilares. Este servicio es perfecto para aquellas personas que desean un cambio completo de imagen y quieren lucir y sentirse lo mejor posible."
-    },
-    "Hairstyle": {
-      "title": "Peinados",
-      "description": "Nuestros estilistas profesionales están listos para ofrecerte los mejores peinados para cualquier ocasión. Ya sea que necesites un peinado para una boda, una fiesta o simplemente para el día a día, estamos aquí para ayudarte a lucir y sentirte lo mejor posible. Ademas, tenemos Coloracion, trenzas, extensiones, keratina, alisados, rizos, cortes de cabello, tratamientos capilares, entre otros."
-    },
-    "facial": {
-      "title": "Facial",
-      "description": "Nuestros tratamientos faciales están diseñados para ayudarte a lucir y sentirte lo mejor posible. Ya sea que necesites una limpieza facial, un tratamiento anti-envejecimiento o simplemente un masaje facial relajante, estamos aquí para ayudarte a lograr la piel que siempre has deseado."
-    },
-    "makeup": {
-      "title": "Maquillaje",
-      "description": "Nuestros maquilladores profesionales están listos para ayudarte a lucir y sentirte lo mejor posible. Ya sea que necesites un maquillaje para una boda, una fiesta o simplemente para el día a día, estamos aquí para ayudarte a resaltar tu belleza natural."
-    }
   }
 }
 

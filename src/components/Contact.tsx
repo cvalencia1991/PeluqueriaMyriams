@@ -97,7 +97,7 @@ export default function Contact() {
           </ul>
         </div>
       </div>
-      <div className="flex flex-col  h-[500px] w-full row-start-2 lg:h-full lg:col-start-2 lg:row-span-2">
+      <div className="flex flex-col items-center gap-5  h-[500px] w-full row-start-2 lg:h-full lg:col-start-2 lg:row-span-2">
         <span className="text-center font-bold lg:text-left">Our location</span>
         <span>{h('address')}</span>
         <Map/>

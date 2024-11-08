@@ -63,7 +63,7 @@ export default function Contact() {
     ));
 
   return (
-    <footer id="contact" className="text-black grid bg-black grid-cols-1 grid-rows-2  h-fit w-screen relative place-items-center order-1 lg:grid-rows-2 lg:grid-cols-2 dark:text-white">
+    <footer id="contact" className="text-white grid bg-black grid-cols-1 grid-rows-2  h-fit w-screen relative place-items-center order-1 lg:grid-rows-2 lg:grid-cols-2 dark:text-white">
       <div className="grid grid-rows-4 gap-y-5 p-5 place-items-center lg:grid-cols-4 lg:grid-rows-3 h-auto w-full lg:row-span-2 lg:place-items-start">
         <div className="col-span-full flex items-center justify-center w-full lg:justify-start">
           <h2 className="text-4xl">lS Peluqueria Myriams</h2>

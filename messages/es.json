@@ -1,17 +1,38 @@
 {
   "Navigation": ["Sobre Nosotros", "Servicios", "Contáctanos"],
+  "footer": {
+    "title" : "LS Peluquería Myriam's",
+    "address": "Carrera 62 # 2B-28 Cali",
+    "schedule": {
+      "title": "Horario",
+      "days": "lunes a viernes",
+      "Sunday": "sábado"
+    },
+    "copyright": "&copy; Peluquería Myriam's <br/>  Todos los Derechos Reservados",
+    "company": {
+      "title": "Nuestra Compañía",
+      "links": {
+        "Home": "Casa",
+        "About": "Acerca de",
+        "Services": "Servicios",
+        "Cookie Policy": "Políticas de cookies"
+      }
+    },
+    "payments": "Opciones de Pago"
+  },
   "LocaleSwitcher": {
-    "label" : "Change Language",
-    "locale": "{locale, select,  es { 🇪🇸 Spanish} en {🇺🇸English} other {Unknown}}"
+    "label": "Change Language",
+    "locale": "{locale, select, es {🇪🇸 Es} en {🇺🇸 En} other {Unknown}}"
   },
   "HomePage": {
-    "title": "✃Myriam's Peluqueria",
-    "description": "Peluquería y Cosmetología, una de las mejores peluquerías de Cali, Colombia,\n te invita\n a disfrutar de una experiencia única en belleza y cuidado personal. Contamos con los mejores utensilios y productos de la región, garantizando resultados excepcionales en cada uno de nuestros servicios. Nuestro equipo de profesionales está preparado para ofrecerte lo mejor en estilo y atención personalizada. ¡Ven y visítanos, y renueva tu imagen con nosotros! ",
-    "About":{
-      "title": "Sobre Nosotros",
-      "description": "Somos una peluquería y cosmetología con más de 30 años de experiencia en el mercado. Nuestro equipo de profesionales está altamente capacitado para ofrecerte los mejores servicios en belleza y cuidado personal. Contamos con un ambiente cálido y acogedor, donde podrás relajarte y disfrutar de una experiencia única en estilismo"
+    "title": "✃Ls Peluquería Myriam's",
+    "description": "Peluquería y Cosmetología, una de las mejores peluquerías de Cali, Colombia, te invita a disfrutar de una experiencia única en belleza y cuidado personal. Contamos con los mejores utensilios y productos de la región, garantizando resultados excepcionales en cada uno de nuestros servicios. Nuestro equipo de profesionales está preparado para ofrecerte lo mejor en estilo y atención personalizada. ¡Ven y visítanos, y renueva tu imagen con nosotros!",
+    "About": {
+      "title": "Nuestra Historia",
+      "description": "Somos una peluquería y cosmetología con más de 30 años de experiencia en el mercado. Nuestro equipo de profesionales está altamente capacitado para ofrecerte los mejores servicios en belleza y cuidado personal. Contamos con un ambiente cálido y acogedor, donde podrás relajarte y disfrutar de una experiencia única en estilismo."
     },
     "services": {
+      "title": "Nuestros Servicios",
       "Full Service": {
         "title": "Full Servicio",
         "description": "Nuestro servicio full incluye un corte de cabello, coloración, peinado, maquillaje, manicura y pedicura, depilación y tratamientos capilares. Este servicio es perfecto para aquellas personas que desean un cambio completo de imagen y quieren lucir y sentirse lo mejor posible."
@@ -28,16 +49,32 @@
         "title": "Maquillaje",
         "description": "Nuestros maquilladores profesionales están listos para ayudarte a lucir y sentirte lo mejor posible. Ya sea que necesites un maquillaje para una boda, una fiesta o simplemente para el día a día, estamos aquí para ayudarte a resaltar tu belleza natural."
       }
+    },
+    "customers/brands": {
+      "title": "Nuestros Clientes/Marcas",
+      "Recomendations": {
+        "user1": {
+          "name": "Sandra Rodriguez",
+          "blockquote": "“¡Absolutamente la mejor peluquería! Desde la calidad de las herramientas hasta la atención excepcional, cada visita aquí es un placer.”"
+        },
+        "user2": {
+          "name": "Maria Fernanda Vera",
+          "blockquote": "“Soy cliente fiel desde hace 7 años, y puedo decir honestamente que este salón es inigualable. ¡La mejor experiencia que he tenido en años!”"
+        },
+        "user3": {
+          "name": "Carmensa Rodriguez",
+          "blockquote": "“Cada visita es un lujo. La experiencia es increíble y lo recomiendo mucho a quien busque un servicio de calidad.”"
+        },
+        "user4": {
+          "name": "Patricia Grisales",
+          "blockquote": "“Simplemente fantástico. Desde el ambiente acogedor hasta el servicio experto, este salón lo tiene todo.”"
+        }
+      }
     }
   },
   "AboutPage": {
     "title": "Sobre Nosotros",
-    "description": "Somos una peluquería y cosmetología con más de 30 años de experiencia en el mercado. Nuestro equipo de profesionales está altamente capacitado para ofrecerte los mejores servicios en belleza y cuidado personal. Contamos con un ambiente cálido y acogedor, donde podrás relajarte y disfrutar de una experiencia única en estilismo"
-  },
-  "contact": {
-    "title": "Contáctanos",
-    "schedule": "Horario de Atención",
-    "address": ""
+    "description": "Somos una peluquería y cosmetología con más de 30 años de experiencia en el mercado. Nuestro equipo de profesionales está altamente capacitado para ofrecerte los mejores servicios en belleza y cuidado personal. Contamos con un ambiente cálido y acogedor, donde podrás relajarte y disfrutar de una experiencia única en estilismo."
   }
 }
 

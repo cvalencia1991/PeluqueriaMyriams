@@ -1,17 +1,29 @@
 {
   "Navigation": ["About Us", "Services", "Contact Us"],
+  "footer":{
+    "title": "Ls Myriam's Hairdressing",
+    "address": "Avenue 62 No. 2b-28, Cali",
+    "schedule": {
+      "title": "Our Service",
+      "days": "Monday to Friday",
+      "Sunday": "Sunday"
+    },
+    "copyright": "&copy; 2025 by LS Miriam's Hairdressing Salon - All rights Reserved ",
+    "payments": "Payment Options"
+  },
   "LocaleSwitcher": {
     "label" : "Change Language",
-    "locale": "{locale, select,  en {🇺🇸 English} es { 🇪🇸 Spanish} other {unkown}}"
+    "locale": "{locale, select,  en {🇺🇸 En} es { 🇪🇸 Sp} other {unkown}}"
   },
   "HomePage": {
-    "title":"✃Myriam's Haird & make up Style",
+    "title":"✃Ls Myriam's Hairdressing ",
     "description":"Hairdressing and Cosmetology, one of the best salons in Cali, Colombia, invites you to enjoy a unique beauty and personal care experience. We use the finest tools and products in the region, ensuring exceptional results in each of our services. Our team of professionals is ready to offer you the best in style and personalized attention. Come visit us and refresh your look with us!",
     "About": {
-      "title": "About Us",
+      "title": "Our History",
       "description": "We are a hairdressing and cosmetology salon with over 30 years of experience in the market. Our team of professionals is highly trained to offer you the best services in beauty and personal care. We have a warm and welcoming environment where you can relax and enjoy a unique styling experience."
     },
     "services":{
+      "title": "Our Service",
       "Full Service": {
         "title": "Full Service",
         "description": "Our full service includes a haircut, coloring, styling, makeup, manicure and pedicure, waxing, and hair treatments. This service is perfect for those who want a complete image change and want to look and feel their best."
@@ -21,14 +33,36 @@
         "description": "Our professional stylists are ready to offer you the best hairstyles for any occasion. Whether you need a hairstyle for a wedding, a party, or just for everyday wear, we are here to help you look and feel your best. We also have coloring, braids, extensions, keratin, straightening, curls, haircuts, hair treatments, among others."
       },
       "Facial": {
-          "title": "Facial",
+        "title": "Facial",
         "description": "Our facial treatments are designed to help you look and feel your best. Whether you need a facial cleansing, an anti-aging treatment, or just a relaxing facial massage, we are here to help you achieve the skin you have always desired."
       },
       "Makeup": {
         "title": "Makeup",
         "description": "Our professional makeup artists are ready to help you look and feel your best. Whether you need makeup for a wedding, a party, or just for everyday wear, we are here to help you highlight your natural beauty."
       }
+    },
+    "customers/brands": {
+      "title": "Our Customers/Brands",
+      "Recomendations": {
+        "user1": {
+          "name": "Sandra Rodriguez",
+          "blockquote": "“Absolutely the best hairdresser! From the quality tools to the exceptional service, every visit here is a delight.”"
+        },
+        "user2": {
+          "name": "Maria Fernanda Vera",
+          "blockquote": "“I've been a loyal customer for 7 years, and I can honestly say this salon is unparalleled. The best experience I've had in years!”"
+        },
+        "user3": {
+          "name": "Carmensa Rodriguez",
+          "blockquote": "“Every visit is a treat! The experience is incredible, and I highly recommend it to anyone looking for quality service.”"
+        },
+        "user4": {
+          "name": "Patricia Grisales",
+          "blockquote": "“Simply fantastic! From the warm atmosphere to the expert service, this salon has it all.”"
+        }
+      }
     }
+
   },
   "AboutPage": {
     "title": "About Us",

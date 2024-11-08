@@ -63,7 +63,7 @@ export default function Contact() {
     ));
 
   return (
-    <footer id="contact" className="text-black grid bg-dark grid-cols-1 grid-rows-2  h-fit w-screen relative place-items-center order-1 lg:grid-rows-2 lg:grid-cols-2 dark:text-white">
+    <footer id="contact" className="text-black grid bg-black grid-cols-1 grid-rows-2  h-fit w-screen relative place-items-center order-1 lg:grid-rows-2 lg:grid-cols-2 dark:text-white">
       <div className="grid grid-rows-4 gap-y-5 p-5 place-items-center lg:grid-cols-4 lg:grid-rows-3 h-auto w-full lg:row-span-2 lg:place-items-start">
         <div className="col-span-full flex items-center justify-center w-full lg:justify-start">
           <h2 className="text-4xl">lS Peluqueria Myriams</h2>
@@ -86,7 +86,9 @@ export default function Contact() {
             {renderSocialMedia(socialMediaLinks)}
           </ul>
         </div>
-        <div className="col-span-full w-full flex flex-col gap-5 justify-center items-center lg:items-start">
+        <div className="col-span-full w-full flex gap-5 flex-col justify-center items-center lg:items-start lg:gap-0">
+          <span className="text-center font-bold lg:text-left">Our location</span>
+          <span>{h('address')}</span>
           <h3 className="font-bold">{h('payments')}</h3>
           <ul className="flex flex-row w-full items-center justify-center align-center gap-5 lg:justify-start">
             {iconsCreditCards.map((icon) => (
@@ -97,9 +99,7 @@ export default function Contact() {
           </ul>
         </div>
       </div>
-      <div className="flex flex-col items-center gap-5  h-[500px] w-full row-start-2 lg:h-full lg:col-start-2 lg:row-span-2">
-        <span className="text-center font-bold lg:text-left">Our location</span>
-        <span>{h('address')}</span>
+      <div className="h-full w-full row-start-2 lg:h-full lg:col-start-2 lg:row-span-2">
         <Map/>
       </div>
       <div className="border-t-2 order-3 row-start-3 flex h-20 w-full items-center align-center justify-center flex-col lg:flex-row lg:col-span-2">

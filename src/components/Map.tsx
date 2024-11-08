@@ -40,7 +40,7 @@ export default function Map() {
   }, []);
 
   return (
-    <div className='h-[550px] p-5' ref={mapRef} />
+    <div className='w-full h-[550px] p-5' ref={mapRef} />
   );
 }
 

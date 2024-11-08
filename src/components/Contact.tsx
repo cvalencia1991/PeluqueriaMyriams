@@ -7,6 +7,13 @@ import { Link } from '@/i18n/routing';
 import Copyright from "./Copyright";
 import Map from "./Map";
 
+// Definir tipo para los íconos de redes sociales
+type SocialMediaLink = {
+  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+  alt: string;
+  link: string;
+};
+
 const iconsCreditCards = [
   '/assets/icons/bancolombia.svg',
   '/assets/icons/visa.svg',
@@ -17,7 +24,7 @@ const iconsCreditCards = [
   '/assets/icons/mastercard.svg',
 ];
 
-const socialMediaLinks = [
+const socialMediaLinks: SocialMediaLink[] = [
   { icon: FacebookIcon, alt: 'Facebook', link: 'https://www.facebook.com/p/Myriams-Peluqueria-100072311221086/?locale=es_LA&_rdr' },
   { icon: WhatsAppIcon, alt: 'WhatsApp', link: 'https://wa.link/xi6jqz' },
   { icon: InstagramIcon, alt: 'Instagram', link: 'https://www.instagram.com/lspeluqueriamyrian_s/' },
@@ -45,7 +52,8 @@ export default function Contact() {
       </li>
     ));
 
-  const renderSocialMedia = (items: { icon: React.ComponentType<any>; alt: string; link: string }[]) =>
+  // Definir el tipo de parámetro como SocialMediaLink[]
+  const renderSocialMedia = (items: SocialMediaLink[]) =>
     items.map(({ icon: Icon, alt, link }) => (
       <li key={alt}>
         <Link href={link}>

@@ -29,7 +29,7 @@ export default function Map() {
 
       const map = new Map(mapRef.current as HTMLDivElement, mapOptions);
 
-      const marker = new AdvancedMarkerElement({
+      new AdvancedMarkerElement({
         map,
         position: position,
         title: 'Peluqueria Myriams',

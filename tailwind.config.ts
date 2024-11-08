@@ -3,12 +3,28 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   darkMode: ["class"],
   content: [
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
+      fontFamily: {
+        roman: ["var(--font-roman)", "serif"],
+        avenir: ["var(--font-avenir)", "serif"],
+      },
+      backgroundImage: {
+        peluqueria: "url('/assets/images/salon-peluqueria.webp')",
+      },
+      animation: {
+        "infinite-scroll": "infinite-scroll 20s linear infinite",
+      },
+      keyframes: {
+        "infinite-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-50%)" },
+        },
+      },
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
@@ -41,6 +57,10 @@ const config: Config = {
           foreground: "hsl(var(--destructive-foreground))",
         },
         gold: "#F2B263",
+        subgold: "#D9AD77",
+        green: "hsl(147,35%,19%)",
+        "white-bone": "#F2F2F2",
+        "green-services": "hsl(61.967, 36%, 33%)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

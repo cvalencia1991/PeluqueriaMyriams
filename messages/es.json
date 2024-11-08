@@ -2,13 +2,14 @@
   "Navigation": ["Sobre Nosotros", "Servicios", "Contáctanos"],
   "footer": {
     "title" : "LS Peluquería Myriam's",
+     "follow": "Siguenos",
     "address": "Carrera 62 # 2B-28 Cali",
     "schedule": {
       "title": "Horario",
       "days": "lunes a viernes",
       "Sunday": "sábado"
     },
-    "copyright": "&copy; Peluquería Myriam's <br/>  Todos los Derechos Reservados",
+    "copyright": "&copy; Peluquería Myriam's <br className='lg:hidden'></br>  Todos los Derechos Reservados",
     "company": {
       "title": "Nuestra Compañía",
       "links": {

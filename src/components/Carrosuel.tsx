@@ -13,11 +13,11 @@ import { Button } from "@/components/ui/button"
 
 export function CarouselDemo() {
   const peluqueriaImages = [
-    "/images/peluqueria1.webp",
-    "/images/peluqueria2.webp",
-    "/images/peluqueria3.webp",
-    "/images/peluqueria4.webp",
-    "/images/peluqueria5.webp",
+    "/assets/images/peluqueria1.webp",
+    "/assets/images/peluqueria2.webp",
+    "/assets/images/peluqueria3.webp",
+    "/assets/images/peluqueria4.webp",
+    "/assets/images/peluqueria5.webp",
   ]
 
   const [api, setApi] = useState<CarouselApi>()

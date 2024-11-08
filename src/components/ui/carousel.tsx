@@ -18,6 +18,7 @@ type CarouselProps = {
   opts?: CarouselOptions
   plugins?: CarouselPlugin
   orientation?: "horizontal" | "vertical"
+  autoPlay?: number
   setApi?: (api: CarouselApi) => void
 }
 
@@ -32,7 +33,7 @@ type CarouselContextProps = {
 
 const CarouselContext = React.createContext<CarouselContextProps | null>(null)
 
-function useCarousel() {
+export function useCarousel() {
   const context = React.useContext(CarouselContext)
 
   if (!context) {
@@ -41,6 +42,7 @@ function useCarousel() {
 
   return context
 }
+
 
 const Carousel = React.forwardRef<
   HTMLDivElement,

@@ -6,12 +6,12 @@ import { useRef } from "react";
 export default function CarouselImages() {
   const images = [
     '/assets/images/peluqueria7.webp',
-    '/assets/images/peluqueria8.jpeg',
-    '/assets/images/peluqueria9.jpeg',
-    '/assets/images/peluqueria10.jpeg',
-    '/assets/images/peluqueria11.jpeg',
-    '/assets/images/peluqueria12.jpeg',
-    '/assets/images/peluqueria13.jpeg',
+    '/assets/images/peluqueria8.webp',
+    '/assets/images/peluqueria9.webp',
+    '/assets/images/peluqueria10.webp',
+    '/assets/images/peluqueria11.webp',
+    '/assets/images/peluqueria12.webp',
+    '/assets/images/peluqueria13.webp',
   ];
 
   const desktopRef = useRef<HTMLDivElement | null>(null);
@@ -20,10 +20,11 @@ export default function CarouselImages() {
     target: desktopRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-85%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-82%"]);
 
   return (
     <section>
+      {/* modo escritorio */}
       <div
         ref={desktopRef}
         className="relative hidden lg:block w-screen h-[150vh] bg-gradient-to-b from-green to-white-bone">
@@ -45,7 +46,9 @@ export default function CarouselImages() {
           </motion.div>
         </div>
       </div>
-      <div className="sticky lg:hidden bg-gradient-to-b from-green to-white-bone">
+      
+      {/* modo Movil */ }
+      <div className="sticky w-full lg:hidden bg-gradient-to-b from-green to-white-bone">
         <motion.ul
           className="flex gap-10 flex-col p-5">
           {images.map((image,index) => (

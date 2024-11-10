@@ -60,7 +60,7 @@ export default function HamburgerButton(){
                 }
             }
           }
-          className='absolute h-1 w-10 bg-white/0 dark:bg-white'/>
+          className='absolute h-1 w-10 bg-white dark:bg-white'/>
         <motion.span 
           style={{ 
             left: "calc(50% - 10px)", 
@@ -81,7 +81,7 @@ export default function HamburgerButton(){
                 }
             }
           }
-          className='absolute h-1 w-5 bg-white/0 dark:bg-white'/>
+          className='absolute h-1 w-5 bg-white dark:bg-white'/>
       </motion.button>
     </MotionConfig>
   );
